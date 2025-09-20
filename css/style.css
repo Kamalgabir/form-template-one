@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#100137,#16083f);
+}
+
+.circle-one {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#288c61 , #822c61);
+    border-radius: 50%;
+    bottom: 0;
+    left: 62%;
+}
+
+.circle-two {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(#288c61 , #822c61);
+    border-radius: 50%;
+    left: 5%;
+}
+
+.circle-three {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#6c8710 , #19ae5c);
+    border-radius: 50%;
+    left: 55%;
+}
+.circle-for {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#14a0b0 , #19ae5c);
+    border-radius: 50%;
+    left: 22%;
+    top: 60%;
+}
+
+form {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0.5px 1px 25px 0.5px rgba(34, 34, 34, 0.8);
+    background: #ffffff38 ;
+    padding-top: 3%;
+}
+
+form h2 {
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+    padding-top: 30px;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+form input {
+    display: block;
+    width: 350px;
+    height: 50px;
+    margin: 30px 130px;
+    border-radius: 20px;
+    padding: 30px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    color: #fff;
+    background: #100137;
+}
+
+form input:focus {
+    background: #fff;
+    color: #000;
+}
+
+form .check input {
+    position: absolute;
+    width: 25px;
+    left: -10%;
+    top: 50%;
+}
+
+form .check {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 30px;
+}
+
+form .check  span {
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+form .check  span:hover {
+    border-bottom:2px solid #100137 ;
+}
+
+form button {
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 20%;
+    top: 70%;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: all 0.5s ease;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+form button:hover {
+    background: #100137;
+    color: #fff;
+}
